@@ -8,7 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 #MaxThreadsPerHotkey 3
-*f3::
+*k::
 #MaxThreadsPerHotkey 1
 If SpamLoop {
     SpamLoop := False
